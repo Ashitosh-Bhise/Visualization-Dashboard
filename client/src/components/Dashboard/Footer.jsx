@@ -17,25 +17,9 @@ const Footer = () => {
         px={4}
       >
         <Text fontSize="sm" color="gray.500">
-          &copy; 2023 Ritesh Kr. Shukla. All rights reserved.
+          &copy; 2024 Ashitosh.bhise. All rights reserved.
         </Text>
-        <Flex alignItems="center">
-          <Link mx={2} fontSize="sm" color="gray.500">
-            Privacy Policy
-          </Link>
-          <Link mx={2} fontSize="sm" color="gray.500">
-            Terms of Service
-          </Link>
-          <Box mx={2}>
-            <Icon as={RiFacebookBoxFill} boxSize={5} color={iconColor} />
-          </Box>
-          <Box mx={2}>
-            <Icon as={RiTwitterFill} boxSize={5} color={iconColor} />
-          </Box>
-          <Box mx={2}>
-            <Icon as={RiInstagramFill} boxSize={5} color={iconColor} />
-          </Box>
-        </Flex>
+        
       </Flex>
     </Box>
   );
